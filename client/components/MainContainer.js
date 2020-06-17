@@ -27,7 +27,21 @@ class MainContainer extends Component {
   }
 
   handleSubmit () {
-    const updatedTodo = [...this.state.todos, this.state.todoItem];
+    console.log("*********************");
+    console.log("*********************");
+    console.log("     handleSubmit    ");
+    console.log("*********************");
+    console.log("*********************");
+    const updatedTodo = [this.state.todoItem, 
+                         this.state.todoItem,
+                         this.state.todoItem,
+                         this.state.todoItem,
+                         this.state.todoItem,
+                         this.state.todoItem,
+                         this.state.todoItem,
+                         this.state.todoItem,
+                         this.state.todoItem,
+                         this.state.todoItem];
     this.setState({todos: updatedTodo});
   }
 
